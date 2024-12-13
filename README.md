@@ -6,11 +6,18 @@ The Bike Sales Dashboard is a comprehensive tool developed using the ELK (Elasti
 
 
 ## About Dataset<br>
+
+<a href="https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe">Dataset Link</a>
+
+<br>
+
+![WhatsApp Image 2024-12-13 at 21 38 10_ed319e27](https://github.com/user-attachments/assets/e8264339-2f11-4783-81af-ed77cd77d7b9)
+
+<br>
+
 The dataset captures transactional data from a Europe-based bike sales business, covering customer demographics, product details, and financial metrics. It includes variables like date, customer age, gender, location (country, state), and ISO country codes for geographic insights. Product details are organized into categories and sub-categories, while financial metrics such as order quantity, unit cost, unit price, profit, cost, and revenue reflect sales performance. This dataset enables analysis of customer behavior, sales trends, and profitability, providing insights to optimize marketing and operational strategies. It is ideal for understanding the European bike market and improving business decision-making.
 
 <br>
-<br>
-[Dataset](https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe)<br>
 
 ### Column description:
 - Date: The specific calendar date of the transaction.<br>
@@ -32,16 +39,32 @@ The dataset captures transactional data from a Europe-based bike sales business,
 - Cost: The total cost incurred by the seller for the order (Order_Quantity × Unit_Cost).<br>
 - Revenue: The total money earned from the transaction (Order_Quantity × Unit_Price).<br>
 
+<br>
+
 ## Dashboard
 ![Complete Dashboard](https://github.com/user-attachments/assets/d27eae90-e264-4bf7-92a9-e4254ce06918)
 
+<br>
+<br>
+
+**Description:** The video demonstrates, the dynamic capabilities of the dashboard built using the ELK Stack. The focus is on utilizing controls and filters to interact with the data in real-time. By applying various filters, such as timestamp, state and subcategory, the dashboard dynamically updates to reflect the selected criteria. Controls like dropdown menus, and sliders, allow seamless customization and exploration of the dataset. This interactive approach helps users in data-driven decision-making.
+
+<br>
+
 [ELK_Dashboard_Video.webm](https://github.com/user-attachments/assets/97faec29-08c1-4621-b8ac-98352e7b573f)
+
+<br>
+
+[Video_ELK_2.webm](https://github.com/user-attachments/assets/e78829c3-d911-4843-aa3a-e77eb5418626)
+
+<br>
+<br>
 
 ## Charts<br>
 
 1. Which age group contributes the most revenue to the business product category wise?<br>
 
-   **Age Group Sales Distribution by Product Category**
+   <ins>**Age Group Sales Distribution by Product Category** </ins>
 
    **Description:** This bar chart displays sales values for Accessories and Clothing across two age groups: Adults (35-64) and Youth (<25). It helps identify the core 
    customer demographic and their product preferences, supporting targeted marketing strategies and refined efforts for youth-focused campaigns.
@@ -50,11 +73,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
 
    The graph shows that **Adults (35-54)** generate the highest revenue across all product categories, with **clothing** being the dominant contributor, followed by 
    **Accessories**. **Young Adults (25-34)** rank second in revenue, while **Youth (<25)** contribute the least. This indicates that marketing efforts should focus on 
-   **Adults** and enhancing engagement with the **younger age group**.<br>
+   **Adults** and enhancing engagement with the **younger age group**.
 
-3. How has the revenue trended over time compared to profit?<br>
+<br>
+<br>
 
-   **Revenue and Profit Trend Over Time**
+2. How has the revenue trended over time compared to profit?<br>
+
+   <ins>**Revenue and Profit Trend Over Time**</ins>
 
    **Description:** This line chart illustrates trends in revenue and profit over a specific time period, highlighting fluctuations and divergences between the two metrics. 
    The chart provides insights into financial performance dynamics, helping to analyze volatility drivers and stabilize profits during revenue fluctuations.
@@ -63,11 +89,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
 
    The graph shows that revenue is consistently higher than profit over time, with significant fluctuations in both. A notable gap exists between revenue and profit, 
    suggesting high operating costs or expenses. This dynamic environment highlights the need for deeper analysis to identify causes of volatility, manage risks, and 
-   leverage periods of growth.<br>
+   leverage periods of growth.
 
-4. How does revenue change over time?<br>
+<br>
+<br>
 
-   **Revenue Over Time**
+3. How does revenue change over time?<br>
+
+   <ins>**Revenue Over Time**</ins>
 
    **Description:** This line chart tracks revenue over time, showcasing spikes and fluctuations in customer demand or event-driven sales. The chart identifies drivers 
    behind revenue spikes, optimizes strategies for low-revenue periods, and smoothens revenue fluctuations for consistent performance.
@@ -75,11 +104,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
    ![Graph -2](https://github.com/user-attachments/assets/cdbebb72-f1dc-49b2-adb7-5cebbe3bbe38)
 
    Revenue spikes occur periodically without a steady trend, reflecting dynamic customer behavior or event-driven sales. Understanding the drivers of these peaks (e.g., 
-   promotions or seasonal demand) can help smooth revenue fluctuations and optimize strategies for periods of lower activity.<br>
+   promotions or seasonal demand) can help smooth revenue fluctuations and optimize strategies for periods of lower activity.
 
-5. What are the top 5 sub-categories by profit margins, and how do they compare?<br>
+<br>
+<br>
 
-   **Product Profit Margin Analysis by Subcategory**
+4. What are the top 5 sub-categories by profit margins, and how do they compare?<br>
+
+   <ins>**Product Profit Margin Analysis by Subcategory**</ins>
 
    **Description:** This donut chart displays profit margins for various product subcategories, ranking them from highest to lowest. It enables prioritization of high- 
    margin products and exploration of opportunities to improve profitability in lower-margin items.
@@ -88,11 +120,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
 
    The key insight is that **Bottles and Cages** lead profit margins **(58.52%)**, followed by **Bike Racks (21.98%)** and **Bike Stands (14.58%)**, while **Cameras and 
    Electronics** are relatively low **(4.92%)**. This indicates the need to focus on the most profitable categories to drive profitability further while exploring 
-   opportunities to improve lower-margin products.<br>
+   opportunities to improve lower-margin products.
 
-6. Which states have the highest sales revenue for the top 6 products?<br>
+<br>
+<br>
 
-   **Sales Performance Analysis by Products**
+5. Which states have the highest sales revenue for the top 6 products?<br>
+
+   <ins>**Sales Performance Analysis by Products**</ins>
 
    **Description:** This heat map chart visualizes sales performance by geographic regions, such as California, British Columbia, and England. The chart aids in sustaining 
    growth in high-performing regions and identifies potential for expansion in underperforming markets.
@@ -100,11 +135,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
    ![Graph -8](https://github.com/user-attachments/assets/b017d811-acbb-4d4e-a16b-93b3a4be2fa0)
 
    **California** leads in **product sales**, with **British Columbia** and **England** also showing strong performance. Other states show moderate sales, indicating a need 
-   to focus efforts on these top-performing regions and products for better overall revenue.<br>
+   to focus efforts on these top-performing regions and products for better overall revenue.
 
-7. What are the key regions for further investment and growth opportunities?<br>
+<br>
+<br>
 
-   **Country-Wise Revenue**
+6. What are the key regions for further investment and growth opportunities?<br>
+
+   <ins>**Country-Wise Revenue**</ins>
 
    **Description:** This map shows the revenue contribution of different countries, providing a comparative analysis of global market performance. It guides resource 
    allocation in dominant markets while identifying emerging regions and untapped potential for growth.
@@ -113,11 +151,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
 
    The map highlights Country-wise Profit, with **Canada** and the **United States** showing the highest profitability, followed by select regions in **Europe**. **Asia** 
    and **Oceania** show growth potential, while **South America** and **Africa** contribute minimally. A focus on optimizing top markets, while strategies for expanding in 
-   Asia and Oceania, and penetrating low-performing regions, can drive global growth. <br>
+   Asia and Oceania, and penetrating low-performing regions, can drive global growth.
 
-8. How do different product types compare in revenue contribution?<br>
+<br>
+<br>
 
-   **Top Product by Revenue**
+7. How do different product types compare in revenue contribution?<br>
+
+   <ins>**Top Product by Revenue**</ins>
 
    **Description:** This word cloud chart ranks products by the revenue they generate, highlighting the best and worst-performing items. The chart informs resource 
    allocation for top-performing products and identifies areas for improvement in pricing or demand for underperforming items.
@@ -125,11 +166,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
    ![Graph -10](https://github.com/user-attachments/assets/c97b54f4-636b-4d6c-b220-e39acd76d552)
 
    This word cloud highlights the top products by revenue, emphasizing items like the **Hitch_Rack_4_Bike** and **AWC_Logo_Cap**, which stand out as major revenue drivers 
-   followed by **All_Purpose_Bike_Stand** and **Mountain_Bottle_Cage**.<br>
+   followed by **All_Purpose_Bike_Stand** and **Mountain_Bottle_Cage**.
 
-9. What is the Country wise Ordered Quantity?<br>
+<br>
+<br>
 
-   **Country-Wise Order Quantity**
+8. What is the Country wise Ordered Quantity?<br>
+
+   <ins>**Country-Wise Order Quantity**</ins>
 
    **Description:** This waffle chart displays order quantities by country, comparing sales volumes across different regions. It strengthens sales efforts in leading 
    markets and identifies opportunities to boost demand in underperforming regions for broader penetration.
@@ -137,11 +181,14 @@ The dataset captures transactional data from a Europe-based bike sales business,
    ![Graph -9 (1)](https://github.com/user-attachments/assets/a73927e5-5caf-4eaa-b131-96f99e67b02b)
 
    The **United States** leads in order quantity **(109,830 units)**, followed by Australia (61,395 units). While maintaining dominance in the U.S., strategies to boost 
-   sales in underperforming regions like Germany and "Others" could unlock additional growth potential.<br>
+   sales in underperforming regions like Germany and "Others" could unlock additional growth potential.
 
-10. What proportion of total revenue is contributed by profit, and how does the average unit cost compare to the average unit price?<br>
+<br>
+<br>
 
-   **Profit as a Part of Revenue**
+9. What proportion of total revenue is contributed by profit, and how does the average unit cost compare to the average unit price?<br>
+
+   <ins>**Profit as a Part of Revenue**</ins>
 
    **Description:** This gauge chart illustrates the proportion of profit within total revenue, showcasing overall profit margin efficiency. It evaluates cost management 
    effectiveness, supports reinvestment decisions, and informs pricing strategies to maintain profitability.
@@ -150,10 +197,13 @@ The dataset captures transactional data from a Europe-based bike sales business,
 
    Profit constitutes 50.3% of total revenue ($1.39M of $2.75M), indicating a healthy profit margin. This reflects efficient cost management, offering opportunities to 
    reinvest profits strategically for growth, optimize costs further, or develop sustainable pricing models to maintain profitability.
-   
-11. What proportion of total revenue is contributed by profit, and how does the average unit cost compare to the average unit price?<br>
 
-    **Average Unit Cost as a Part of Average Unit Price**
+<br>
+<br>
+   
+10. What proportion of total revenue is contributed by profit, and how does the average unit cost compare to the average unit price?<br>
+
+    <ins>**Average Unit Cost as a Part of Average Unit Price**</ins>
 
     **Description:** This gauge chart compares the average unit cost with the average unit price, showing their relationship and cost-to-price ratio. The chart evaluates 
     pricing strategies, highlighting areas for cost reduction and ensuring competitive yet profitable pricing structures.
@@ -163,6 +213,8 @@ The dataset captures transactional data from a Europe-based bike sales business,
     With an average unit cost of $5.76 making up 42.7% of the average unit price ($13.50), the business maintains a strong profit margin. This cost structure allows 
     competitive pricing while sustaining profitability. Strategic cost reductions or price adjustments could further enhance margins.
 
+<br>
+<br>
 
 ## Managerial Insights<br>
 - Customer-Centric Marketing and Engagement<br>
@@ -184,7 +236,10 @@ The dataset captures transactional data from a Europe-based bike sales business,
 
 - Market Expansion and Growth Strategies<br>
   - **Strengthen Leadership in Key Regions**: The U.S. leads in order quantities, followed by Australia, highlighting their importance as primary markets. Efforts should focus on maintaining this dominance.<br>
-  - **Expand Market Share in Under performing Regions**: Regions like South America and Africa have the lowest revenue and order quantities. Implement localized marketing, improve distribution, and assess product relevance to penetrate these markets effectively.<br>
+  - **Expand Market Share in Under performing Regions**: Regions like South America and Africa have the lowest revenue and order quantities. Implement localized marketing, improve distribution, and assess product relevance to penetrate these markets effectively.
+
+<br>
+<br>
 
 ## Conclusion<br>
 
